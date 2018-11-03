@@ -1,3 +1,10 @@
+/*CLASES*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
 .banner{
   background-image: url("assets/img/post-image.jpg");
   background-position: center;
@@ -5,6 +12,7 @@
   width: 100%;
   height: 500px;
   color: white;
+  background-size: cover;
 }
 
 .banner h1{
@@ -12,16 +20,17 @@
   font-size: 57px;
   text-align: center;
   vertical-align: middle;
-  padding-top: 200px;
+  padding-top: 160px;
 }
 
-.banner span{
-  font-size: 30px;
-  padding-left: 400px;
-  padding-top: 90px;
+.icono1{
+  width: 25px;
+  height: 25px;
   text-align: center;
+  margin-left: 450px;
+  margin-top: 130px;
+  display: block;
 }
-
 
 .logo{
   width: 150px;
@@ -40,3 +49,142 @@
   line-height: 16pt;
   color: gray;
 }
+
+ .flecha_derecha{
+   display: inline;
+   color: gray;
+   padding: 5px;
+ }
+
+.bloque1{
+}
+
+.imgRedonda{
+   width:145px;
+   height:145px;
+   border-radius:75px;
+   display: inline;
+   float:left;
+   margin: 20px;
+}
+
+.Naomi{
+  font-family: 'Playfair Display', serif;
+  font-size: 14pt;
+  padding-top: 30px;
+}
+
+.parrafonaomi{
+  font-size: 10pt;
+  line-height: 16pt;
+  color: gray;
+  text-align: left;
+  padding-left: 190px;
+}
+
+.parrafojt{
+  font-size: 10pt;
+  line-height: 16pt;
+  padding-top: 30px;
+  padding-left: 40px;
+  color: gray;
+  text-align: left;
+}
+
+div.uno{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.thumbnail{
+  margin-top: 50px;
+  z-index: -10;
+}
+
+.parrafojt2{
+  font-size: 10pt;
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: middle;
+}
+
+ .justderch{
+   text-align: right;
+ }
+
+ .justizq{
+   text-align: left;
+ }
+
+.cajamostacho{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  font-size: 10pt;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.cajamostacho img{
+  width: 55px;
+  margin-top: 20px;
+}
+
+div.row{
+   margin: 0px;
+}
+
+div.container-fluid{
+   padding: 0px;
+}
+
+.navbar{
+  margin-top: 0px important!;
+}
+
+.icono-blanco{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius:15px;
+  border:1px solid #666;
+  z-index: 20;
+  margin-left: 480px;
+  margin-bottom: -70px;
+
+}
+
+/* INICIO JQUERIES*/
+
+@media screen and (max-width: 814px){
+
+  .unopequeño{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-left: 240px;
+}
+  .parrafonaomi{
+    padding-left: 100px;
+}
+  .bloque1{
+    text-align: center;
+    display: block;
+}
+  }
+  div.uno{
+    display: none;
+}
+
+@media screen and (min-width: 815px){
+
+  .unopequeño{
+      display:none;
+}
+  div.uno{
+      width: 100%;
+      display: block;
+      text-align: center;
+}
+  }
